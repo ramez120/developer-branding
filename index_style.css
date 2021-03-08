@@ -1,0 +1,456 @@
+
+body{
+    overflow-x: hidden
+}
+
+.home
+{
+    height: 650px;
+    background-image: url(cover.jpg);
+    background-size: cover;
+    background-position:;
+  
+    
+}
+
+.overlay
+{
+    background-color: rgba(255,0,0,0.5);
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.overlay h1
+{
+    font-size: 56px;
+    font-weight: 700;
+    text-shadow: 0px 5px 10px #af2424;
+    font-family: Poppins, Helvetica, arial, sans-serif;
+    
+}
+nav
+{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+nav a
+{
+    color: white;
+    padding:0px 20px;
+    font-weight: bold;
+}
+.overlay span
+{
+    font-size: 10px;
+    position: relative
+}
+.home .btn-home
+{
+    border: solid 2px white;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 0px;
+    margin-top: 10px;
+}
+.home i
+{
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    font-size: 40px;
+    animation-name: is;
+    animation-direction: alternate-reverse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.home .content a
+{
+    color: white;
+    
+}
+@keyframes is
+{
+    0%{bottom: 18%;}
+    100%{bottom: 15%;}
+}
+@media screen and (max-width: 992px)
+{
+    .home  .container .content h1
+    {
+        font-size: 35px !important;
+    }
+    .home
+    {
+        height: 100vh;
+        background-position: 60%;
+    }
+    nav  a{
+        margin-right: auto;
+        padding: 0px;
+    }
+    
+    
+}
+nav img
+{
+    width: 70px;
+    height: 70px;
+}
+nav .collapse a:hover
+{
+    color: red !important;
+}
+nav a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+.about i, .hire .foo i
+{
+    font-size: 20px;
+    border: solid 1px gray;
+    padding: 10px 10px;
+    color: gray;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.about .exp, .hire .foo .exp
+{
+padding: 10px 14px;
+}
+.about i:hover
+{
+    color: white;
+    background-color: red;
+}
+.about h4
+{
+    margin-bottom: 20px;
+}
+.about h2
+
+{
+    color: rgb(68, 68, 68);
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.about p
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    margin-top: 20px;
+}
+.sp
+{
+    position: relative;
+   padding: 10px 0px;
+    color: gray;
+    
+}
+.no
+{
+    position: absolute;
+    left: 88%;
+        color: gray;
+
+   
+}
+.about .btn-ex, .services .btn-ex, .portfolio .btn-ex 
+{
+    background-color: #ec3237;
+    border-radius: 0px;
+    padding: 10px 20px;
+    font-family: 'Poppins', Helvetica, arial, sans-serif;
+    margin-top: 40px;
+}
+.services
+{
+    background-color: rgb(245, 245, 245);
+    padding: 60px 0px;
+}
+.services h2, .portfolio h2
+{
+        font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.services p
+{
+        font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+}
+.services i
+{
+    color: #777777;
+    background-color: rgb(245, 245, 245);
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+.service
+{
+    background-color: white;
+    padding: 20px;
+}
+.services h4
+{
+    font-size: 18px;
+    font-weight: 700;
+  
+}
+.services p
+{
+    font-size: 18px;
+    font-weight: 300;
+    color: #777777;
+    
+}
+.service:hover h4{
+    color: red;
+}
+.service:hover i{
+    color: white;
+    background-color: red;
+}
+.temp
+{
+    text-align: center;
+    
+}
+.service1 h2
+{
+        font-size: 3em;
+    color: #ffffff;
+    font-weight: 600;
+     margin-bottom: 10px;
+}
+.service-cont
+{
+    background-image: url(project-counter.jpg);
+    padding: 100px 10px;
+    width:  100%;
+}
+.service1 h4
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ec3237;
+   
+}
+.service1 i
+{
+    color: #ec3237;
+    background-color: transparent;
+    font-size: 25px;
+}
+.service1
+{
+    border: solid 1px rgba(255,255,255,0.1);
+    padding: 15px 0px;
+}
+.portfolio
+{
+        background-color: rgb(245, 245, 245);
+        padding: 60px 0px;
+}
+.portfolio a
+{
+ background-color:#ffffff ;
+    color:  #444444 ;
+   
+    border: 2px solid #dddddd;
+    margin: 0px 2px;
+}
+.active 
+{
+    background-color: rgb(236, 50, 55) !important;
+    color: white !important;
+    border: 0px !important;
+}
+.contents h4
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+.contents p
+{
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.modi
+{
+    background-color: transparent !important;
+    border: 0px;
+}
+.portfolio .contents
+{
+    color:  rgb(68, 68, 68);
+}
+.portfolio .contents img
+{
+    width: 100%;
+}
+.contents
+{
+    position: relative;
+}
+
+.contents i
+{
+    color: white;
+    background-color: black;
+    padding: 9px;
+    position: absolute;
+    left: 45%;
+    top:61%;
+}
+
+.portfolio a:hover{
+    color: red !important;
+    border-color: #ec3237 !important;
+}
+.contents:hover i
+{
+    
+    background-color: #ec3237 !important;
+}
+.portfolio .temp a
+{
+    color: white !important;
+}
+.slid 
+{
+    background-image: url(client-testimonial.jpg);
+    background-color: transparent !important;
+    padding: 60px;
+    text-align: center;
+    
+}
+.carousal
+{
+    background-color: transparent !important;
+}
+.mod
+{
+    background-color: transparent !important;
+}
+.under
+{
+    
+}
+.slid img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid red;
+}
+.slid p
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+.slid h3
+{
+    color: rgb(236, 50, 55);
+}
+.hire
+{
+    padding: 50px;
+}
+.hire i
+{
+    font-size: 12px;
+    padding: 8px;
+    margin: 0px;
+     color: #777777;
+    
+}
+.end
+{
+    margin:0px;
+    font-size: 16px;
+}
+.nop4 a
+{
+    text-decoration: none;
+    color:rgb(191, 54, 12);
+    font-size: 16px;
+    margin-top: 10px;
+   
+}
+.hire .row p, .hire i 
+{
+    margin: 10px 0px;
+}
+.hire .foo i:hover{
+    color: white;
+    background-color: red;
+}
+.p-p
+{
+    margin-bottom: 20px;
+}
+.foo
+
+{
+    margin-bottom: 30px;
+}
+.nop10
+{
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #cccccc;
+    margin-bottom: 20px;
+}
+.nop11
+{
+    width: 100%;
+    border: solid 1px #cccccc;
+    margin-bottom: 30px;
+}
+.finale a
+{
+    text-decoration: none;
+    color: red;
+    
+}
+.fi
+{
+    background-color: #ec3237;
+    border:none;
+    border-radius: 0px;
+    margin-bottom: 60px;
+}
+.fi:hover{
+     background-color: #ec3237;
+    border:none;
+    border-radius: 0px;
+    
+}
+.finale
+{
+    color: #cccccc;
+}
+@media screen and (max-width:768px)
+{
+    .finale span
+    {
+        margin-right: 20px;
+    }
+.service1
+{
+    width : 100%;
+    padding: 0px 0px
+}
+}
+
+
